@@ -35,5 +35,6 @@ public class ex003 {
         for (int i = 0; i < k; i++) {
             System.out.print(intersecao[i] + " ");
         }
+        sc.close();
     }
 }
