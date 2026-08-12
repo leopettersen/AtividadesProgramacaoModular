@@ -1,0 +1,6 @@
+# Configurações do IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
