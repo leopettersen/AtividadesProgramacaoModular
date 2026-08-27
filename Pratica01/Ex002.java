@@ -14,6 +14,29 @@ public class Ex002 {
         int criatividade;
         String casa;
 
+        public Aluno() {
+            this.nome = "";
+            this.idade = 0;
+            this.coragem = 0;
+            this.inteligencia = 0;
+            this.ambicao = 0;
+            this.lealdade = 0;
+            this.estrategia = 0;
+            this.criatividade = 0;
+            this.casa = "";
+        }
+        public Aluno(String nome, int idade, int coragem, int inteligencia, int ambicao, int lealdade, int estrategia, int criatividade) {
+            this.nome = nome;
+            this.idade = idade;
+            this.coragem = coragem;
+            this.inteligencia = inteligencia;
+            this.ambicao = ambicao;
+            this.lealdade = lealdade;
+            this.estrategia = estrategia;
+            this.criatividade = criatividade;
+            this.casa = "";
+        }
+
         public String getNome() {
             return nome;
         }
