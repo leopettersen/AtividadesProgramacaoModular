@@ -9,6 +9,21 @@ public class Ex001 {
         private double peso; // Kg
         private double imc;
 
+        public Pessoa() {
+            this.nome = "";
+            this.sobrenome = "";
+            this.idade = 0;
+            this.altura = 0.0;
+            this.peso = 0.0;
+        }
+        public Pessoa(String nome, String sobrenome, int idade, double altura, double peso) {
+            this.nome = nome;
+            this.sobrenome = sobrenome;
+            this.idade = idade;
+            this.altura = altura;
+            this.peso = peso;
+        }
+
         public String getNome() {
             return nome;
         }
