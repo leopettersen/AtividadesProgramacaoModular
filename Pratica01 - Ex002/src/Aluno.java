@@ -1,0 +1,120 @@
+public class Aluno {
+    String nome;
+    int idade;
+    int coragem;
+    int inteligencia;
+    int ambicao;
+    int lealdade;
+    int estrategia;
+    int criatividade;
+    String casa;
+
+    public Aluno() {
+        this.nome = "";
+        this.idade = 0;
+        this.coragem = 0;
+        this.inteligencia = 0;
+        this.ambicao = 0;
+        this.lealdade = 0;
+        this.estrategia = 0;
+        this.criatividade = 0;
+        this.casa = "";
+    }
+    public Aluno(String nome, int idade, int coragem, int inteligencia, int ambicao, int lealdade, int estrategia, int criatividade) {
+        this.nome = nome;
+        this.idade = idade;
+        this.coragem = coragem;
+        this.inteligencia = inteligencia;
+        this.ambicao = ambicao;
+        this.lealdade = lealdade;
+        this.estrategia = estrategia;
+        this.criatividade = criatividade;
+        this.casa = "";
+    }
+
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getCoragem() {
+        return coragem;
+    }
+    public void setCoragem(int coragem) {
+        this.coragem = coragem;
+    }
+
+    public int getInteligencia() {
+        return inteligencia;
+    }
+    public void setInteligencia(int inteligencia) {
+        this.inteligencia = inteligencia;
+    }
+
+    public int getAmbicao() {
+        return ambicao;
+    }
+    public void setAmbicao(int ambicao) {
+        this.ambicao = ambicao;
+    }
+
+    public int getLealdade() {
+        return lealdade;
+    }
+    public void setLealdade(int lealdade) {
+        this.lealdade = lealdade;
+    }
+
+    public int getCriatividade() {
+        return criatividade;
+    }
+    public void setCriatividade(int criatividade) {
+        this.criatividade = criatividade;
+    }
+
+    public int getEstrategia() {
+        return estrategia;
+    }
+    public void setEstrategia(int estrategia) {
+        this.estrategia = estrategia;
+    }
+
+    public String getCasa() {
+        return casa;
+    }
+    public void setCasa(String casa) {
+        this.casa = casa;
+    }
+
+    public String exibirInformacoes() {
+        return "\n--------------------\n" +
+                "RELATÓRIO DE " + this.nome + "\n" +
+                "Idade: " + this.idade + " anos\n" +
+                "Casa: " + this.casa +
+                "\n--------------------\n";
+    }
+
+    public String calcularCasa() {
+        double grifinoria, sonserina, corvinal, lufaLufa;
+        grifinoria = this.coragem * 2 + this.lealdade;
+        sonserina = this.ambicao * 2 + this.estrategia;
+        corvinal = this.inteligencia * 2 + this.criatividade;
+        lufaLufa = (this.lealdade * 2 + this.coragem) / 3;
+
+        double maior = Math.max(Math.max(grifinoria, sonserina), Math.max(corvinal, lufaLufa));
+
+        if (maior == grifinoria) return "Grifinória";
+        if (maior == sonserina) return "Sonserina";
+        if (maior == corvinal) return "Corvinal";
+        return "Lufa-Lufa";
+    }
+}
