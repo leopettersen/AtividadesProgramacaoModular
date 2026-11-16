@@ -1,0 +1,11 @@
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/enums/Categoria.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/classes/PedidoAlimento.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/classes/PedidoEletronico.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/exceptions/ValorInvalidoException.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/exceptions/PedidoInvalidoException.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/classes/PedidoRoupa.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/interfaces/Processavel.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/enums/StatusPedido.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/classes/Pedido.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/App.java
+/home/leonardo/Github/AtividadesProgramacaoModular/Pratica05/src/main/java/com/example/pratica05/interfaces/Entregavel.java
